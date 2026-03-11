@@ -52,11 +52,6 @@ export class HeroComponent {
       text: 'Email',
       url: 'mailto:roee1454@gmail.com',
     },
-    {
-      icon: 'lucideFileText',
-      text: 'Resume',
-      url: '/resources/cv.pdf',
-    },
   ] satisfies Social[];
 
   openSkills() {
