@@ -1,3 +1,13 @@
 packages:
   - apps/*
   - packages/*
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - lmdb
+  - msgpackr-extract
+  - unrs-resolver
+
+onlyBuiltDependencies:
+  - '@nestjs/core'
