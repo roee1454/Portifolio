@@ -65,7 +65,7 @@ export class ColorChooserComponent {
     protected colors = COLORS;
     protected themes = THEMES;
     protected selectedColor = signal<string>(COLORS[0].value);
-    protected selectedTheme = signal<string>(THEMES[0].name);
+    protected selectedTheme = signal<string>(THEMES[1].name);
 
     constructor() {
         const savedColor = localStorage.getItem('theme-primary');
